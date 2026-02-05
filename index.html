@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            body{
+                background-color: rgb(230, 219, 219);
+                margin: 0;
+            }
+            .Main{
+                width:100vw;
+                height:100vh;
+                background-color: white;
+                position: relative;
+
+            }
+            .Box{
+                width: 20vw;
+                height: 40vh;
+                border-radius: 20px;
+                font-size: 250px;
+                color: white;
+                font-weight: bolder;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 1s ease-in-out;
+            }
+            .Sub1{
+                background-color: red;
+                position: absolute;
+                top: 30vh;
+                left: 4vw;
+            }
+            .Sub2{
+                background-color: green;
+                position: absolute;
+                top: 33vh;
+                left: 28vw;
+            }
+            .Sub3{
+                background-color: dodgerblue;
+                position: absolute;
+                top: 30vh;
+                right: 28vw;
+            }
+            .Sub4{
+                background-color: yellow;
+                position: absolute;
+                top:33vh;
+                right:4vw
+            }
+            .Sub5 img{
+                width: 250px;
+
+            }
+            .Sub5{
+                position: fixed;
+                top:5vh;
+                left: 50px;
+            }
+            .Main2{
+                width: 100vw;
+                height: 100vh;
+                background-color: whitesmoke;
+
+            }
+            .Main:hover .Sub1{
+                background-color: white;
+                border: 15px solid red;
+                color: red;
+                transform: rotate(-10deg);
+                left: 8vw;
+            }
+            .Main:hover .Sub2{
+                background-color: white;
+                border: 15px solid green;
+                color: green;
+                transform: rotate(10deg);
+            }
+            .Main:hover .Sub3{
+                background-color: white;
+                border: 15px solid dodgerblue;
+                color: dodgerblue;
+                transform: rotate(-10deg);
+                right: 32vw;
+            }
+            .Main:hover .Sub4{
+                background-color: white;
+                border: 15px solid yellow;
+                color: yellow;
+                transform: rotate(10deg);
+                right: 12vw;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Main">
+            <div class="Box Sub1">
+                Z
+            </div>
+            <div class="Box Sub2">
+                O
+            </div>
+            <div class="Box Sub3">
+                H
+            </div>
+            <div class="Box Sub4">
+                O
+            </div>
+
+            <div class="Sub5">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.r40R5hLvEyRbtwIopUrD0wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"alt="">
+
+            </div>
+            
+        </div>
+        <div class="Main2">
+
+        </div>
+    </body>
+</html>
